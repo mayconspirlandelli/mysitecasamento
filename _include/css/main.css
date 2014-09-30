@@ -631,7 +631,8 @@ nav#menu #menu-nav li a:hover {
 ================================================== */
 
 .page {
-	background: #2F3238;
+	/*background: #2F3238;*/
+	background: url(../img/fundo/fundo3.jpeg);
 	padding: 100px 0;
 	position: relative;
 	z-index: 99;
@@ -655,8 +656,10 @@ nav#menu #menu-nav li a:hover {
 }
 
 .title {
+color: #000000;
 	font-size: 100px;
 	margin: 0 0 10px 0
+	
 }
 
 .title-page  {
@@ -847,7 +850,6 @@ title-description {
 	width: 100%;
 	height: 100%;
 	background: #DE5E60;
-	
 	opacity: 0.80;
 	filter: alpha(opacity=80);
 }
@@ -1203,7 +1205,7 @@ footer .credits {
 
 #jpreOverlay,
 #jSplash {
-	background-color: #2F3238;
+	background-color: #2F3238;	
 	position: absolute;
 	width: 100%;
 	height: 100%;
