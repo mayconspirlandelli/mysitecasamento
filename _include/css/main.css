@@ -214,11 +214,14 @@ h1{
 }
 
 h2{
-	font-size:36px;
+	/*font-size:36px;*/	
+	font: 150px 'Alex Brush', Helvetica, sans-serif;       
 }
 
 h3{
-	font-size:24px;
+	/*font-size:24px;*/	
+	font: 50px 'Alex Brush', Helvetica, sans-serif;
+	
 }
 
 h4{
@@ -646,13 +649,24 @@ nav#menu #menu-nav li a:hover {
 	margin-bottom: 100px;	
 }
 
-.title-page .title {
+.title-page  {
 	font-size: 48px;
 	margin: 0 0 10px 0
 }
 
-.title-page .title-description {
+.title {
+	font-size: 100px;
+	margin: 0 0 10px 0
+}
+
+.title-page  {
 	font-size: 24px;
+	font-weight: 200;
+	margin: 0;
+}
+
+title-description {
+	font-size: 50px;
 	font-weight: 200;
 	margin: 0;
 }
